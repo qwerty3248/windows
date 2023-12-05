@@ -1,0 +1,6 @@
+
+para compilar el porgrama para windows
+x86_64-w64-mingw32-g++ mi_programa.cpp -o mi_programa.exe
+para ejecutarlo
+wine mi_programa.exe
+
