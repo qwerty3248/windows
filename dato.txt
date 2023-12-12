@@ -1,0 +1,1 @@
+Usar mejor el vscode para trabajar en python en vez del gedit pero compilar en la terminal
