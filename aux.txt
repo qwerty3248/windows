@@ -1,6 +1,10 @@
 
-para compilar el porgrama para windows
-x86_64-w64-mingw32-g++ mi_programa.cpp -o mi_programa.exe
-para ejecutarlo
+para compilar el porgrama para windows:
+-en c++ :x86_64-w64-mingw32-g++ mi_programa.cpp -o mi_programa.exe
+-en python: ~/.local/bin/pyinstaller --onefile --distpath=. --name <arch>.exe <arch>.py
+en la carpeta dist tendriamos el ejecutable 
+para ejecutarlo:
 wine mi_programa.exe
+para compilar un programa en python desde terminal es:
+/bin/python3 <ruta python>
 
